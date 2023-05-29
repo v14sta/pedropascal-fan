@@ -1,0 +1,95 @@
+body {
+  display: block;
+  margin: 8px;
+}
+div {
+  display: block;
+}
+h1 {
+  font-weight: bold;
+  color: #e5e5e5;
+  text-align: center;
+  display: block;
+  border: 1px solid #d8801e;
+  border-radius: 12px;
+  padding: 10px;
+}
+h2 {
+  color: #e5e5e5;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  margin: 1px auto;
+}
+hr {
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+}
+img {
+  display: block;
+  margin: 0px auto;
+  border-radius: 10px;
+  width: 350px;
+}
+p {
+  display: block;
+  text-align: justify;
+  font-size: 23px;
+}
+a {
+  color: #e5e5e5;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+button {
+  color: #ffffff;
+  background-color: #ffa34d;
+  font-size: 42px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+  padding: 16px 25px;
+  border: 1px hidden;
+  border-color: hidden;
+  border-radius: 30px;
+  box-shadow: 5px #d5d1dc;
+  transition: all 155ms ease-in-out;
+}
+button:hover {
+  background: #a6bc76;
+  color: #080808;
+  cursor: pointer;
+}
+.box {
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #e5e5e5;
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
+  border: 1px hidden rgba(136, 93, 241, 0);
+  border-radius: 12px;
+  padding: 30px;
+  margin: 35px auto;
+  display: block;
+  text-align: center;
+  width: 50%;
+}
+.pedro:hover {
+  font-weight: bold;
+  background: #a6bc76;
+  color: #000000;
+  border: #d8801e;
+  border-radius: 20px auto;
+}
